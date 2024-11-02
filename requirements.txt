@@ -1,0 +1,17 @@
+gspread
+oauth2client
+pandas
+tabulate
+google-api-python-client
+matplotlib
+Pillow
+easyocr
+requests
+numpy
+scipy
+discord.py
+python-dotenv
+# DebtManager
+# Dice
+# DiceImage
+# PokerNightManager

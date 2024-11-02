@@ -1,0 +1,20 @@
+{
+    "gwynaelle": {
+        "anarchira": 0
+    },
+    "anarchira": {
+        "gwynaelle": 0,
+        "anarchiraryze": 7,
+        "aureban": 1,
+        "yaboinicholas": -1
+    },
+    "anarchiraryze": {
+        "anarchira": -7
+    },
+    "aureban": {
+        "anarchira": -1
+    },
+    "yaboinicholas": {
+        "anarchira": 1
+    }
+}
