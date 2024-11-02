@@ -34,7 +34,8 @@ class PokerNightManager():
     def connect_gs(self):
         json_key = json.loads(os.getenv("GOOGLE_CREDS"))
         scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-        self.creds = ServiceAccountCredentials.from_json_keyfile_name(json_key, scope)
+        #self.creds = ServiceAccountCredentials.from_json_keyfile_name(json_key, scope)
+        self.creds = ServiceAccountCredentials.from_json_keyfile_dict(json_key, scope)
         self.client = gspread.authorize(self.creds)
         self.sheets_service = build('sheets', 'v4', credentials=self.creds)
     
